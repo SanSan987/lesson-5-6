@@ -19,8 +19,8 @@ module "eks" {
     # Група для загальних задач (CPU)
     cpu_nodes = {
       min_size     = 1
-      max_size     = 2
-      desired_size = 1
+      max_size     = 5
+      desired_size = 4
 
       instance_types = ["t3.micro"]
       capacity_type  = "ON_DEMAND"
