@@ -22,7 +22,7 @@ module "eks" {
       max_size     = 5
       desired_size = 4
 
-      instance_types = ["t3.micro"]
+      instance_types = ["t3.small"]
       capacity_type  = "ON_DEMAND"
     }
 
